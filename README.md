@@ -5,7 +5,7 @@ Browser-ready, dependency-free JavaScript helpers for rendering Stanford Cocina 
 ## Use
 
 ```js
-import { CocinaRecord, DisplayData } from '@sul-dlss/cocina-display-js';
+import { CocinaRecord, DisplayData } from 'cocina-display-js';
 
 const response = await fetch('https://purl.stanford.edu/bb112zx3193.json');
 const record = new CocinaRecord(await response.json());
