@@ -1,0 +1,12 @@
+{
+  "name": "cocina-display",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Browser-ready vanilla JavaScript helpers for Cocina display metadata",
+  "main": "./src/core.js",
+  "exports": {".": "./src/core.js"},
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {"test": "node --test"},
+  "engines": {"node": ">=22"},
+  "license": "Apache-2.0"
+}
